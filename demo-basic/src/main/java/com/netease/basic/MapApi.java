@@ -1,4 +1,4 @@
-package org.example.basic;
+package com.netease.basic;
 
 import com.alibaba.fastjson.JSONObject;
 import com.netease.lowcode.core.annotation.NaslLogic;

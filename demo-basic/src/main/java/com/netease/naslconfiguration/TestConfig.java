@@ -1,4 +1,4 @@
-package org.example.naslconfiguration;
+package com.netease.naslconfiguration;
 
 import com.netease.lowcode.core.EnvironmentType;
 import com.netease.lowcode.core.annotation.Environment;

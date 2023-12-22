@@ -1,9 +1,9 @@
-package org.example.naslconfiguration;
+package com.netease.naslconfiguration;
 
 
 import com.netease.lowcode.core.annotation.NaslLogic;
-import org.example.structure.AddParam;
-import org.example.structure.AddRes;
+import com.netease.structure.AddParam;
+import com.netease.structure.AddRes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
