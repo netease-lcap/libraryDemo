@@ -1,5 +1,5 @@
 import com.alibaba.fastjson.JSONObject;
-import org.example.api.MapApi;
+import org.example.basic.MapApi;
 
 import java.util.HashMap;
 import java.util.Map;

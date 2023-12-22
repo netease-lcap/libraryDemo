@@ -6,7 +6,8 @@
 
     <groupId>com.netease</groupId>
     <artifactId>libraryDemo</artifactId>
-    <version>1.1.21</version>
+    <!--平台上传过的包，在代码修改后版本号必须升级。因为平台中的包无法彻底删除。-->
+    <version>1.2.0</version>
     <!--引入与制品应用一样的父项目，spring-boot-starter-parent已经放到dependencyManagement的包，不需要指定版本号-->
     <parent>
         <groupId>org.springframework.boot</groupId>
