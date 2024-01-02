@@ -1,4 +1,4 @@
-package com.netease;
+package com.netease.lib;
 
 //@SpringBootTest(classes = SpringEnvironmentConfiguration.class)
 //@RunWith(SpringRunner.class)
