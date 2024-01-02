@@ -1,9 +1,9 @@
-package com.netease.naslconfiguration;
+package com.netease.demo.customconfig;
 
 
+import com.netease.common.structure.AddParam;
+import com.netease.common.structure.AddRes;
 import com.netease.lowcode.core.annotation.NaslLogic;
-import com.netease.structure.AddParam;
-import com.netease.structure.AddRes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,22 +14,11 @@ import org.springframework.stereotype.Component;
  * 3.3及以上版本支持
  */
 @Component
-public class AddTestSpringApi {
-    private final Logger log = LoggerFactory.getLogger(AddTestSpringApi.class);
+public class AddTestConfigApi {
+    private final Logger log = LoggerFactory.getLogger(AddTestConfigApi.class);
 
     @Autowired
     private TestConfig testConfig;
-
-    /**
-     * 相加
-     *
-     * @param addParam 参数对象
-     * @return 相加的结果
-     */
-    @NaslLogic
-    public Integer addByObject2(AddParam addParam) {
-        return addParam.getA() + addParam.getB();
-    }
 
     /**
      * NaslStructure自定义结构 示例

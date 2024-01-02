@@ -1,9 +1,9 @@
-package com.netease.exampleerror;
+package com.netease.demo.basic;
 
 
 import com.netease.lowcode.core.annotation.NaslLogic;
-import com.netease.structure.AddParam;
-import com.netease.structure.AddRes;
+import com.netease.common.structure.AddParam;
+import com.netease.common.structure.AddRes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

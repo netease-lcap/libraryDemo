@@ -1,4 +1,4 @@
-package com.netease.basic;
+package com.netease.demo.basic;
 
 import com.alibaba.fastjson.JSONObject;
 import com.netease.lowcode.core.annotation.NaslLogic;
@@ -9,6 +9,9 @@ import org.springframework.stereotype.Component;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 使用map对象示例
+ */
 @Component
 public class MapApi {
     private static final Logger log = LoggerFactory.getLogger(MapApi.class);

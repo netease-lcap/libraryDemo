@@ -1,4 +1,4 @@
-package com.netease.naslconfiguration;
+package com.netease.demo.customconfig;
 
 import com.netease.lowcode.core.EnvironmentType;
 import com.netease.lowcode.core.annotation.Environment;
@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 /**
- * 使用环境变量
+ * 使用自定义环境变量
  */
 @Component
 public class TestConfig {

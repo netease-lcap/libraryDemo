@@ -1,7 +1,7 @@
-package com.netease.basic;
+package com.netease.demo.basic;
 
 import com.netease.lowcode.core.annotation.NaslLogic;
-import com.netease.structure.AddParam;
+import com.netease.common.structure.AddParam;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
