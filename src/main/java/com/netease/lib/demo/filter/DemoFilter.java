@@ -11,6 +11,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * filter示例
+ */
 @Component
 public class DemoFilter implements Filter {
     public static final String LOGIC_IDENTIFIER_SEPARATOR = ":";
