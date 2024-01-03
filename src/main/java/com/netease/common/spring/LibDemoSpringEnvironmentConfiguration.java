@@ -1,6 +1,6 @@
-package com.netease.lowcode.common.spring;
+package com.netease.common.spring;
 
-import com.netease.lowcode.LibraryAutoScan;
+import com.netease.LibraryAutoScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 

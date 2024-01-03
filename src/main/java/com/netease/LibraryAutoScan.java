@@ -1,4 +1,4 @@
-package com.netease.lowcode;
+package com.netease;
 
 /**
  * 依赖库自动扫描类
