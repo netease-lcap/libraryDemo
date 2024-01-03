@@ -1,6 +1,5 @@
-package com.netease.common.spring;
+package com.netease.lib;
 
-import com.netease.LibraryAutoScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
