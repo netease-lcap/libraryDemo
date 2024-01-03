@@ -1,6 +1,6 @@
-package com.netease.lib.common.spring;
+package com.netease.lowcode.common.spring;
 
-import com.netease.lib.LibraryAutoScan;
+import com.netease.lowcode.LibraryAutoScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -9,5 +9,5 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @ComponentScan(basePackageClasses = LibraryAutoScan.class)
-public class SpringEnvironmentConfiguration {
+public class LibDemoSpringEnvironmentConfiguration {
 }
