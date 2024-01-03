@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.netease.lowcode.common.spring.LibDemoSpringEnvironmentConfiguration
+com.netease.common.spring.LibDemoSpringEnvironmentConfiguration
