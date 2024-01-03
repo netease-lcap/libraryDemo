@@ -1,4 +1,4 @@
-package com.netease.lib.structure;
+package com.neteaselib.structure;
 
 import com.netease.lowcode.core.annotation.NaslStructure;
 

@@ -1,4 +1,4 @@
-package com.netease.lib;
+package com.neteaselib;
 
 /**
  * 依赖库自动扫描类

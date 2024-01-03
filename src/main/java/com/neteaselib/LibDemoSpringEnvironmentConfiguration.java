@@ -1,4 +1,4 @@
-package com.netease.lib;
+package com.neteaselib;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

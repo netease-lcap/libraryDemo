@@ -1,8 +1,8 @@
-package com.netease.lib.demo.customconfig;
+package com.neteaselib.demo.customconfig;
 
 
-import com.netease.lib.structure.AddParam;
-import com.netease.lib.structure.AddRes;
+import com.neteaselib.structure.AddParam;
+import com.neteaselib.structure.AddRes;
 import com.netease.lowcode.core.annotation.NaslLogic;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
