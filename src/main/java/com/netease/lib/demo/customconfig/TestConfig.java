@@ -1,4 +1,4 @@
-package com.neteaselib.demo.customconfig;
+package com.netease.lib.demo.customconfig;
 
 import com.netease.lowcode.core.EnvironmentType;
 import com.netease.lowcode.core.annotation.Environment;
