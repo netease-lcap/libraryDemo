@@ -1,5 +1,6 @@
-package com.netease.lib;
+package com.netease.lib.redistemplatetool.spring;
 
+import com.netease.lib.redistemplatetool.LibraryAutoScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -8,5 +9,5 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @ComponentScan(basePackageClasses = LibraryAutoScan.class)
-public class LibDemoSpringEnvironmentConfiguration {
+public class LibDemoRedisSpringEnvironmentConfiguration {
 }
