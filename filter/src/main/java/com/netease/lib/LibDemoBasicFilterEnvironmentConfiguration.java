@@ -9,4 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackageClasses = LibraryAutoScan.class)
 public class LibDemoBasicFilterEnvironmentConfiguration {
+    public LibDemoBasicFilterEnvironmentConfiguration() {
+        System.out.println("LibDemoBasicFilterEnvironmentConfiguration");
+    }
 }
