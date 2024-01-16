@@ -37,12 +37,6 @@
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
         <dependency>
-            <artifactId>nasl-metadata-collector</artifactId>
-            <groupId>com.netease.lowcode</groupId>
-            <version>0.7.0</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
