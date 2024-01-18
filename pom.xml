@@ -13,6 +13,7 @@
         <module>filter</module>
         <module>redis</module>
         <module>redis_replayprotect</module>
+        <module>dubbo_biz_demo</module>
     </modules>
     <build>
         <plugins>
