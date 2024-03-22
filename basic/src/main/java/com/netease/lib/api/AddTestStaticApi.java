@@ -1,4 +1,4 @@
-package com.netease.lib.demo.basic;
+package com.netease.lib.api;
 
 import com.netease.lib.structure.AddParam;
 import com.netease.lowcode.core.annotation.NaslLogic;

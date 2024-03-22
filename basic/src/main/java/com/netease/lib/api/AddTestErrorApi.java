@@ -1,4 +1,4 @@
-package com.netease.lib.demo.basic;
+package com.netease.lib.api;
 
 
 import com.netease.lib.structure.AddParam;
@@ -8,8 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * 非静态方法（spring bean）示例
- * 3.3及以上版本支持
+ * 静态方法抛出异常示例
  */
 public class AddTestErrorApi {
     private static final Logger log = LoggerFactory.getLogger(AddTestErrorApi.class);

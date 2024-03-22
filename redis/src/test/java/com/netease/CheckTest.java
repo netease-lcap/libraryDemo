@@ -1,7 +1,7 @@
 package com.netease;
 
 
-import com.netease.lib.redistemplatetool.spring.LibDemoRedisSpringEnvironmentConfiguration;
+import com.netease.lib.redistemplatetool.RedisTemplateToolApplication;
 import com.netease.lib.redistemplatetool.util.RedisTool;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,8 +12,8 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.test.context.junit4.SpringRunner;
 
-//@SpringBootTest(classes = LibDemoRedisSpringEnvironmentConfiguration.class)
-//@RunWith(SpringRunner.class)
+@SpringBootTest(classes = RedisTemplateToolApplication.class)
+@RunWith(SpringRunner.class)
 public class CheckTest {
     @Autowired
     public RedisTemplate<String, String> redisTemplate;
@@ -21,7 +21,8 @@ public class CheckTest {
     private RedisConnectionFactory redisConnectionFactory;
     @Autowired
     private RedisTool redisTool;
-//    @Test
+
+    @Test
     public void queryDataTest() {
         ValueOperations<String, String> operations = redisTemplate.opsForValue();
         String redisKey = operations.get("redis-key");

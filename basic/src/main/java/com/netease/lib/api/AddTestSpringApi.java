@@ -1,4 +1,4 @@
-package com.netease.lib.demo.basic;
+package com.netease.lib.api;
 
 
 import com.netease.lib.structure.AddParam;
@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class AddTestSpringApi {
-    private final Logger log = LoggerFactory.getLogger(AddTestSpringApi.class);
+    private final static Logger log = LoggerFactory.getLogger(AddTestSpringApi.class);
 
     /**
      * 相加

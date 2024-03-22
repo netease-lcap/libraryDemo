@@ -58,7 +58,7 @@
             <artifactId>dubbo-spring-boot-starter</artifactId>
             <version>2.7.8</version>
         </dependency>
-        <!--todo 引入主数据dubbo share包和相关的工具包-->
+        <!--todo 引入业务dubbo share包和相关的工具包-->
     </dependencies>
     <build>
         <plugins>
