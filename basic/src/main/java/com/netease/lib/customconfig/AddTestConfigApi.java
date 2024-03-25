@@ -1,4 +1,4 @@
-package com.netease.lib.demo.customconfig;
+package com.netease.lib.customconfig;
 
 
 import com.netease.lib.structure.AddParam;
